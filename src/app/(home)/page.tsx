@@ -12,7 +12,7 @@ const Home = () => {
         <CertificatesList />
       </div>
 
-      <div className="flex flex-col gap-3 lg:gap-5">
+      <div>
         <SectionTitle className="pl-5">Projetos</SectionTitle>
         <ProjectList />
       </div>
