@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import CertificatesItem from "@/components/ui/certificates-item";
+import ProjectItem from "@/components/ui/project-item";
 
 const CertificatesPage = () => {
   const imagesCertificates: Array<string> = [
@@ -19,7 +20,7 @@ const CertificatesPage = () => {
             </Badge>
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
           {imagesCertificates.map((cert) => (
-            <CertificatesItem certificate={cert} className="" />
+            <ProjectItem certificate={cert} className="" />
           ))}
         </div>
       </div>
