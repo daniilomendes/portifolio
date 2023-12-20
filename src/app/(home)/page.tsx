@@ -16,8 +16,6 @@ const Home = () => {
         <SectionTitle className="pl-5">Projetos</SectionTitle>
         <ProjectList />
       </div>
-
-
     </div>
   );
 };
