@@ -3,7 +3,7 @@ import CertificatesItem from "./certificates-item";
 
 
 const CertificatesList = () => { 
-    const imagesCertificates: Array<string> = ["/Banco-de-Dados-SQL-NodeJS.png", "/imgGit.png"]
+    const imagesCertificates: Array<string> = ["/Banco-de-Dados-SQL-NodeJS.png", "/imgGit.png", "/Banco-de-Dados-SQL-NodeJS.png", "/imgGit.png"]
     const namesCertificates: Array<string> = [""]
     const categoryCertificates: Array<string> = [""]
     const linksCertificates: Array<string> = [""]
