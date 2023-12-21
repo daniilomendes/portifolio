@@ -1,6 +1,6 @@
 import CertificatesItem from "./certificates-item";
 
-interface Teste {
+interface Certificate {
   image: string;
   name: string;
   link: string;
@@ -118,7 +118,7 @@ const CertificatesList = () => {
     link: "https://drive.google.com/file/d/1gVpCwcnNf9xn4NMlnljFxuBfSvc7xknk/view?usp=sharing",
   };
 
-  const test: Teste[] = [
+  const certificates: Certificate[] = [
     certificate1,
     certificate2,
     certificate3,
@@ -145,9 +145,9 @@ const CertificatesList = () => {
 
   return (
     <div className="flex w-full gap-4 overflow-x-auto px-5 [&::-webkit-scrollbar]:hidden">
-      {test.map((teste) => (
+      {certificates.map((certificate) => (
         <CertificatesItem
-          certificate={teste}
+          certificate={certificate}
           className="w-[156px] lg:w-[200px] lg:min-w-[200px]"
         />
       ))}

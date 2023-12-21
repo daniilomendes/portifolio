@@ -2,24 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-interface Teste {
-  image: string
-  name: string
-  link: string
+interface Certificate {
+  image: string;
+  name: string;
+  link: string;
 }
 
 interface CertificatesItemsProps {
-  certificate: Teste;
+  certificate: Certificate;
   className?: string;
 }
-
-
 
 const CertificatesItem = ({
   certificate,
   className,
 }: CertificatesItemsProps) => {
-
   return (
     <Link
       href={certificate.link}
