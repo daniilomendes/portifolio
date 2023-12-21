@@ -7,10 +7,6 @@ interface Project {
 }
 
 const ProjectList = () => { 
-  // https://e-commerce-daniilomendes-projects.vercel.app/
-  // https://site-de-vendas-lanches-daniilomendes-projects.vercel.app/
-  // https://black-nextjs-daniilomendes-projects.vercel.app/
-
   let project1 = {
     image: "/projects-images/ecd-store.png",
     name: "E-commerce ECD",
@@ -22,10 +18,17 @@ const ProjectList = () => {
     name: "Menu Online",
     link: "https://site-de-vendas-lanches-daniilomendes-projects.vercel.app/",
   };
+
+  let project3 = {
+    image: "/projects-images/mini-e-commerce.png",
+    name: "Mini E-commerce",
+    link: "https://black-nextjs-daniilomendes-projects.vercel.app/",
+  };
     
   const projects: Project[] = [
     project1,
-    project2
+    project2,
+    project3
   ]
 
   return (
