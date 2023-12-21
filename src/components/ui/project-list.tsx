@@ -4,7 +4,7 @@ import ProjectItem from "./project-item";
 
 
 const ProjectList = () => { 
-    const imagesProjects: Array<string> = ["/Banco-de-Dados-SQL-NodeJS.png", "/imgGit.png", "/Banco-de-Dados-SQL-NodeJS.png", "/imgGit.png"]
+    const imagesProjects: Array<string> = ["/Banco-de-Dados-SQL-NodeJS.png", "/Banco-de-Dados-SQL-NodeJS.png"]
     const namesProjects: Array<string> = [""]
     const categoryProjects: Array<string> = [""]
     const linksProjects: Array<string> = [""]

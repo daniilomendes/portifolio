@@ -2,23 +2,32 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
+interface Teste {
+  image: string
+  name: string
+  link: string
+}
+
 interface CertificatesItemsProps {
-  certificate: string;
+  certificate: Teste;
   className?: string;
 }
+
+
 
 const CertificatesItem = ({
   certificate,
   className,
 }: CertificatesItemsProps) => {
+
   return (
     <Link
-      href="https://drive.google.com/file/d/17iGmi3w8nu2haEXt1Th3ndvfrTdB5x7z/view?usp=drive_link"
+      href={certificate.link}
       className={cn("flex min-w-[180px] flex-col gap-1", className)}
     >
       <div className="relative flex aspect-square w-full items-center justify-center rounded-lg">
         <Image
-          src={certificate}
+          src={certificate.image}
           height={0}
           width={0}
           sizes="100vw"
@@ -28,7 +37,7 @@ const CertificatesItem = ({
       </div>
 
       <div className="flex flex-col gap-1">
-        <p className="truncate text-sm">Nome do certificado</p>
+        <p className="truncate text-sm">{certificate.name}</p>
 
         <div className="flex items-center gap-2 ">
           <p className="truncate text-sm font-semibold">Categoria Front-end</p>

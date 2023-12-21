@@ -14,7 +14,7 @@ const ProjectItem = ({
   return (
     <Link
       href="https://drive.google.com/file/d/17iGmi3w8nu2haEXt1Th3ndvfrTdB5x7z/view?usp=drive_link"
-      className={cn("flex min-w-[180px] flex-col gap-4", className)}
+      className={cn("flex min-w-[156px] flex-col gap-4", className)}
     >
       <div className="relative flex aspect-square w-full items-center justify-center rounded-lg">
         <Image

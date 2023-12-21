@@ -12,7 +12,6 @@ const Home = () => {
         <IntroductionArea />
       </div>
 
-
       <div className="flex flex-col gap-3 lg:gap-5">
         <SectionTitle className="pl-5">Certificados</SectionTitle>
         <CertificatesList />
