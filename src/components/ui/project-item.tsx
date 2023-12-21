@@ -20,7 +20,7 @@ const ProjectItem = ({
   return (
     <Link
       href={project.link}
-      className={cn("flex min-w-[156px] flex-col gap-4", className)}
+      className={cn("flex min-w-[156px] flex-col", className)}
     >
       <div className="relative flex aspect-square w-full items-center justify-center rounded-lg">
         <Image
@@ -34,10 +34,10 @@ const ProjectItem = ({
       </div>
 
       <div className="flex flex-col gap-1">
-        <p className="truncate text-sm">{project.name}</p>
+        <p className="truncate text-sm">Projeto Full-Stack</p>
 
         <div className="flex items-center gap-2 ">
-          <p className="truncate text-sm font-semibold">Categoria Front-end</p>
+          <p className="truncate text-sm font-semibold">{project.name}</p>
         </div>
       </div>
     </Link>
