@@ -7,28 +7,32 @@ const IntroductionArea = () => {
       <ScrollArea className="h-[200px] w-[350px] rounded-md border p-4">
         <div className="text-justify ">
           <p className="pb-3">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
-            autem optio dolorum, excepturi rem quidem nobis voluptatem,
-            exercitationem nesciunt voluptas, itaque libero voluptate. Vero
-            consequuntur blanditiis aliquam dicta vitae doloremque? Lorem ipsum,
-            dolor sit amet consectetur adipisicing elit. Voluptatem nihil libero
-            quod officia. Vitae sapiente, suscipit expedita odio voluptatem
-            illum deleniti numquam iure repellat aperiam enim placeat ex, harum
-            dignissimos.
+            Graduando em Bacharel em Ciência da Computação pelo IFGoiano, com
+            certificações em Desenvolvimento Full Stack JavaScript, Planejamento
+            e Gestão de projetos e Gestão Ágil com Scrum. Realizei formações em
+            cursos na área de Front-end e Back-end, buscando melhorar minhas
+            habilidades e conhecimento na área de desenvolvimento Full Stack
+            criando, aperfeiçoando e aprofundando no desenvolvimento de novas
+            aplicações Web utilizando a linguagem TypeScript, NodeJs, PostgreSQL
+            e NextJS. Mantendo um ritmo de desenvolvimento de projetos para o
+            aprendizado.
           </p>
           <Separator />
-          <p className="pt-3 pb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            repellendus doloribus necessitatibus culpa? Nam doloremque vel ex
-            atque pariatur, ducimus aperiam facilis? Doloribus blanditiis
-            eligendi vitae in et itaque non?
+          <p className=" pt-3">
+            As Linguagens, Bibliotecas e Frameworks que possuo conhecimento são:
+            NextJs, Shadcn, Prisma, Tailwind, React Native, NodeJs, TypeScript,
+            JavaScript, Html, Css, Sass, Bootstrap, Bulma, C#, Asp.Net, Python,
+            R
+          </p>
+          <p className="pb-3">
+            Banco de dados que trabalhei: PostgreSQL e MongoDB
           </p>
           <Separator />
           <p className="pt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            repellendus doloribus necessitatibus culpa? Nam doloremque vel ex
-            atque pariatur, ducimus aperiam facilis? Doloribus blanditiis
-            eligendi vitae in et itaque non?
+            Caso queira entrar em contato, basta utilizar e-mail de contato ou o
+            número de telefone com whatsapp: 
+            <p>Número de telefone/Whatsapp: (64) 99329-3998 </p>
+            <p>E-mail de contato: danilo.mirandha@gmail.com</p>
           </p>
         </div>
       </ScrollArea>
