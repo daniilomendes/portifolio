@@ -7,6 +7,9 @@ interface Project {
 }
 
 const ProjectList = () => { 
+  // https://e-commerce-daniilomendes-projects.vercel.app/
+  // https://site-de-vendas-lanches-daniilomendes-projects.vercel.app/
+  // https://black-nextjs-daniilomendes-projects.vercel.app/
     
   const projects: Project[] = [
 
