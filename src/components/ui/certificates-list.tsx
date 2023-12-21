@@ -8,112 +8,112 @@ interface Certificate {
 
 const CertificatesList = () => {
   let certificate1 = {
-    image: "/Programador-Full-Stack-JavaScript-Profissional.png",
+    image: "/certificates-images/Programador-Full-Stack-JavaScript-Profissional.png",
     name: "Programador Full Stack JavaScript Profissional",
     link: "https://drive.google.com/file/d/1r6VVoSt35_hZWfmawnjqjGg5y_LdvnVG/view?usp=sharing",
   };
   let certificate2 = {
-    image: "/TypeScript.png",
+    image: "/certificates-images/TypeScript.png",
     name: "TypeScript",
     link: "https://drive.google.com/file/d/16rkUEnI4BrT7jk7KZUMgIdE0bvDAXCH3/view?usp=sharing",
   };
   let certificate3 = {
-    image: "/Formação-Front-end.jpg",
+    image: "/certificates-images/Formação-Front-end.jpg",
     name: "Formação Front-End",
     link: "https://drive.google.com/file/d/114wi9y3y3SEKBVeqXTUyUK-z4fPVklRM/view?usp=sharing",
   };
   let certificate4 = {
-    image: "/Dominando-NodeJs.png",
+    image: "/certificates-images/Dominando-NodeJs.png",
     name: "Dominando o NodeJs",
     link: "https://drive.google.com/file/d/18-bvI89r8Dc5Vk5CR-JnMgRLWAWUZP8-/view?usp=sharing",
   };
   let certificate5 = {
-    image: "/NextJS.png",
+    image: "/certificates-images/NextJS.png",
     name: "NextJS",
     link: "https://drive.google.com/file/d/134CI-NtTWm38jbPToZkFX04152c31AeZ/view?usp=sharing",
   };
   let certificate6 = {
-    image: "/Fundamentos-React.png",
+    image: "/certificates-images/Fundamentos-React.png",
     name: "Fundamentos do React",
     link: "https://drive.google.com/file/d/16wWCqRVhJcEUNUpBqGJ1EeaR2FCpgUw0/view?usp=sharing",
   };
   let certificate7 = {
-    image: "/Gestão-Ágil-Scrum.jpg",
+    image: "/certificates-images/Gestão-Ágil-Scrum.jpg",
     name: "Gestão Ágil com Scrum",
     link: "https://drive.google.com/file/d/19_wxJFapZDJ10Urn_PvfcP1n7pcnBYvD/view?usp=sharing",
   };
   let certificate8 = {
-    image: "/Banco-de-Dados-SQL-NodeJS.png",
+    image: "/certificates-images/Banco-de-Dados-SQL-NodeJS.png",
     name: "Banco de Dados SQL NodeJS",
     link: "https://drive.google.com/file/d/1vCFbwz0vzFdxhlZSnDpOgeLgyS7O5ZXz/view?usp=sharing",
   };
   let certificate9 = {
-    image: "/JavaScript.png",
+    image: "/certificates-images/JavaScript.png",
     name: "JavaScript",
     link: "https://drive.google.com/file/d/1KO4_DvmG3S4VMfmGaO9ldXHQ6WwA93tm/view?usp=sharing",
   };
   let certificate10 = {
-    image: "/MongoDB.png",
+    image: "/certificates-images/MongoDB.png",
     name: "MongoDB",
     link: "https://drive.google.com/file/d/1TLW5B5NYWunmITzrZ6IdZBsyOSgow71o/view?usp=sharing",
   };
   let certificate11 = {
-    image: "/C#-Completo-POO.jpg",
+    image: "/certificates-images/C#-Completo-POO.jpg",
     name: "C# Completo e Programação Orientada a Objetos",
     link: "https://drive.google.com/file/d/1CQViZxzXNhEnmETj4mA3O2cs_TwXSZT7/view?usp=sharing",
   };
   let certificate12 = {
-    image: "/Programação-Python-básico-avançado.jpg",
+    image: "/certificates-images/Programação-Python-básico-avançado.jpg",
     name: "Programação Python do Básico ao Avançado",
     link: "https://drive.google.com/file/d/1ioQ5hEr_S6yuMhXYApsNdeWoV7xsKIGv/view?usp=sharing",
   };
   let certificate13 = {
-    image: "/Formação-Cientista-Dados.jpg",
+    image: "/certificates-images/Formação-Cientista-Dados.jpg",
     name: "Formação Cientista de Dados com Python e R",
     link: "https://drive.google.com/file/d/1zfrUVqSSKaWXD7srmObd5uoQuPrZ3f_5/view?usp=sharing",
   };
   let certificate14 = {
-    image: "/Planejamento-e-Gestão-Projetos.jpg",
+    image: "/certificates-images/Planejamento-e-Gestão-Projetos.jpg",
     name: "Planejamento e Gestão Projetos",
     link: "https://drive.google.com/file/d/1miaLpUoZ_NgmHksuQtxLkMsL4EI4hk3L/view?usp=sharing",
   };
   let certificate15 = {
-    image: "/Sass.png",
+    image: "/certificates-images/Sass.png",
     name: "Sass",
     link: "https://drive.google.com/file/d/1vdBGEil8pHjTRFl-_l6oWWQzcLirCJMu/view?usp=sharing",
   };
   let certificate16 = {
-    image: "/HTML5.png",
+    image: "/certificates-images/HTML5.png",
     name: "HTML5",
     link: "https://drive.google.com/file/d/1x-7avivdn9oRax08-VJFjd-1-rD2Gawm/view?usp=sharing",
   };
   let certificate17 = {
-    image: "/Git-GitHub.png",
+    image: "/certificates-images/Git-GitHub.png",
     name: "Git e GitHub",
     link: "https://drive.google.com/file/d/1hwZe4kGN0bqmaakHgLJDq9CRO_DmdF7A/view?usp=sharing",
   };
   let certificate18 = {
-    image: "/Bootstrap.png",
+    image: "/certificates-images/Bootstrap.png",
     name: "Bootstrap",
     link: "https://drive.google.com/file/d/17iGmi3w8nu2haEXt1Th3ndvfrTdB5x7z/view?usp=sharing",
   };
   let certificate19 = {
-    image: "/CSS-Moderno.png",
+    image: "/certificates-images/CSS-Moderno.png",
     name: "CSS Moderno",
     link: "https://drive.google.com/file/d/16JbNMZ_B3iyaIUSKobzyJFPVQqwWRkMC/view?usp=sharing",
   };
   let certificate20 = {
-    image: "/CSS3.png",
+    image: "/certificates-images/CSS3.png",
     name: "CSS3",
     link: "https://drive.google.com/file/d/1s5V45Li2RnK7-7aL9sxs19P2C_oUITUd/view?usp=sharing",
   };
   let certificate21 = {
-    image: "/Bulma.png",
+    image: "/certificates-images/Bulma.png",
     name: "Bulma",
     link: "https://drive.google.com/file/d/1uw9X2soUCd4-mMUkYKZ4VG7bBzUVXCOO/view?usp=sharing",
   };
   let certificate22 = {
-    image: "/KanBan-Guia-Completo.jpg",
+    image: "/certificates-images/KanBan-Guia-Completo.jpg",
     name: "KanBan: O Guia Completo",
     link: "https://drive.google.com/file/d/1gVpCwcnNf9xn4NMlnljFxuBfSvc7xknk/view?usp=sharing",
   };
