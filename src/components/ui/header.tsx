@@ -1,4 +1,4 @@
-import { FolderKanban, HomeIcon, MenuIcon, ShieldCheck } from "lucide-react";
+import { FolderKanban, Github, HomeIcon, Linkedin, MenuIcon, ShieldCheck } from "lucide-react";
 import { Button } from "./button";
 import { Card } from "./card";
 import Link from "next/link";
@@ -58,6 +58,30 @@ const Header = () => {
                 >
                   <FolderKanban size={16} />
                   Projetos
+                </Button>
+              </Link>
+            </SheetClose>
+
+            <SheetClose asChild>
+              <Link href="https://www.linkedin.com/in/danilo-m-miranda/">
+                <Button
+                  variant="outline"
+                  className="w-full justify-start gap-2"
+                >
+                  <Linkedin size={16} />
+                  LinkedIn
+                </Button>
+              </Link>
+            </SheetClose>
+
+            <SheetClose asChild>
+              <Link href="https://github.com/daniilomendes">
+                <Button
+                  variant="outline"
+                  className="w-full justify-start gap-2"
+                >
+                  <Github size={16} />
+                  GitHub
                 </Button>
               </Link>
             </SheetClose>
