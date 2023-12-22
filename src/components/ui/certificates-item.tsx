@@ -3,7 +3,6 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 interface Certificate {
-  id: number;
   image: string;
   name: string;
   link: string;
