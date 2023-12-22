@@ -33,7 +33,7 @@ const ProjectList = () => {
 
   return (
     <div className="flex flex-col gap-8 pl-5 pr-5 mx-auto lg:container lg:gap-10 lg:py-10">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-6">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         {projects.map((project) =>
             <ProjectItem project={project} className="" />
         )}

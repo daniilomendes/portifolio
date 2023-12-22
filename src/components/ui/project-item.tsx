@@ -22,21 +22,21 @@ const ProjectItem = ({
       href={project.link}
       className={cn("flex min-w-[156px] flex-col", className)}
     >
-      <div className="relative flex aspect-square w-full items-center justify-center rounded-lg">
+      <div className="relative flex  w-full items-center justify-center rounded-lg lg:aspect-auto">
         <Image
           src={project.image}
           height={0}
           width={0}
           sizes="100vw"
-          className="h-auto max-h-[80%] w-auto max-w-[100%] object-contain"
+          className="h-auto max-h-[100%] w-auto max-w-[100%] object-contain"
           alt="Alou"
         />
       </div>
 
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-1 mt-5">
         <p className="truncate text-sm">Projeto Full-Stack</p>
 
-        <div className="flex items-center gap-2 ">
+        <div className="flex items-center gap-2">
           <p className="truncate text-sm font-semibold">{project.name}</p>
         </div>
       </div>
