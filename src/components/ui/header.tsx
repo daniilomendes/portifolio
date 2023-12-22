@@ -63,7 +63,7 @@ const Header = () => {
             </SheetClose>
 
             <SheetClose asChild>
-              <Link href="https://www.linkedin.com/in/danilo-m-miranda/">
+              <Link href="https://www.linkedin.com/in/danilo-m-miranda/" target="_blank" >
                 <Button
                   variant="outline"
                   className="w-full justify-start gap-2"
@@ -75,7 +75,7 @@ const Header = () => {
             </SheetClose>
 
             <SheetClose asChild>
-              <Link href="https://github.com/daniilomendes">
+              <Link href="https://github.com/daniilomendes" target="_blank">
                 <Button
                   variant="outline"
                   className="w-full justify-start gap-2"

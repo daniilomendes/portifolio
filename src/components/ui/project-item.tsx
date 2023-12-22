@@ -18,6 +18,7 @@ const ProjectItem = ({ project, className }: ProjectItemsProps) => {
     <Link
       href={project.link}
       className={cn("flex min-w-[156px] flex-col", className)}
+      target="_blank"
     >
       <div className="relative flex  w-full items-center justify-center rounded-lg lg:aspect-auto">
         <Image

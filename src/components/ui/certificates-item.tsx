@@ -21,6 +21,7 @@ const CertificatesItem = ({
     <Link
       href={certificate.link}
       className={cn("flex min-w-[180px] flex-col gap-1", className)}
+      target="_blank"
     >
       <div className="relative flex aspect-square w-full items-center justify-center rounded-lg">
         <Image
