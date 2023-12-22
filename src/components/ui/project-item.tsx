@@ -31,7 +31,7 @@ const ProjectItem = ({ project, className }: ProjectItemsProps) => {
       </div>
 
       <div className="mt-5 flex flex-col gap-1">
-        <p className="truncate text-sm">Projeto Full-Stack</p>
+        <p className="truncate text-sm"></p>
 
         <div className="flex items-center gap-2">
           <p className="truncate text-sm font-semibold">{project.name}</p>

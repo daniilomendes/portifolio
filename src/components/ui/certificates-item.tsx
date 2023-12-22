@@ -34,10 +34,10 @@ const CertificatesItem = ({
       </div>
 
       <div className="flex flex-col gap-1">
-        <p className="truncate text-sm">{certificate.name}</p>
+        <p className="truncate text-sm"></p>
 
         <div className="flex items-center gap-2 ">
-          <p className="truncate text-sm font-semibold">Categoria Front-end</p>
+          <p className="truncate text-sm font-semibold">{certificate.name}</p>
         </div>
       </div>
     </Link>
