@@ -3,6 +3,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 interface Project {
+  id: number;
   image: string;
   name: string;
   link: string;
@@ -13,10 +14,7 @@ interface ProjectItemsProps {
   className?: string;
 }
 
-const ProjectItem = ({
-  project,
-  className,
-}: ProjectItemsProps) => {
+const ProjectItem = ({ project, className }: ProjectItemsProps) => {
   return (
     <Link
       href={project.link}
@@ -29,11 +27,11 @@ const ProjectItem = ({
           width={0}
           sizes="100vw"
           className="h-auto max-h-[100%] w-auto max-w-[100%] object-contain"
-          alt="Alou"
+          alt={project.name}
         />
       </div>
 
-      <div className="flex flex-col gap-1 mt-5">
+      <div className="mt-5 flex flex-col gap-1">
         <p className="truncate text-sm">Projeto Full-Stack</p>
 
         <div className="flex items-center gap-2">

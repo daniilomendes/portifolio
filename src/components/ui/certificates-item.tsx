@@ -3,6 +3,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 interface Certificate {
+  id: number;
   image: string;
   name: string;
   link: string;
@@ -29,7 +30,7 @@ const CertificatesItem = ({
           width={0}
           sizes="100vw"
           className="h-auto max-h-[80%] w-auto max-w-[100%] object-contain"
-          alt="Alou"
+          alt={certificate.name}
         />
       </div>
 
