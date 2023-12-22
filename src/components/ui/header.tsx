@@ -92,7 +92,7 @@ const Header = () => {
 
       <Link href="/">
         <h1 className="text-lg font-semibold">
-          <span className="text-primary">Meu Portfólio</span> Danilo
+          <span className="text-primary">Meu Portfólio</span>
         </h1>
       </Link>
     </Card>
