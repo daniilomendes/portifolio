@@ -29,7 +29,14 @@ const ProjectList = () => {
     link: "https://black-nextjs-daniilomendes-projects.vercel.app/",
   };
 
-  const projects: Project[] = [project1, project2, project3];
+  let project4 = {
+    id: 4,
+    image: "/projects-images/gestor-de-estoque.png",
+    name: "Gestor de Estoque",
+    link: "https://stupendous-alpaca-ebe272.netlify.app/",
+  };
+
+  const projects: Project[] = [project1, project2, project3, project4];
 
   return (
     <div className="mx-auto flex flex-col gap-8 pl-5 pr-5 lg:container lg:gap-10 lg:py-10">
