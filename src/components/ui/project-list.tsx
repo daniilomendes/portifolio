@@ -36,7 +36,29 @@ const ProjectList = () => {
     link: "https://stupendous-alpaca-ebe272.netlify.app/",
   };
 
-  const projects: Project[] = [project1, project2, project3, project4];
+  
+  let project5 = {
+    id: 5,
+    image: "/projects-images/calculadora.png",
+    name: "Calculadora",
+    link: "https://willowy-scone-0f20f8.netlify.app/",
+  };
+
+  let project6 = {
+    id: 6,
+    image: "/projects-images/jogo_da_velha.png",
+    name: "Jogo da Velha",
+    link: "https://splendorous-sprite-c66f9a.netlify.app/",
+  };
+
+  let project7 = {
+    id: 7,
+    image: "/projects-images/to_do.png",
+    name: "Jogo da Velha",
+    link: "https://magnificent-kelpie-a2ca22.netlify.app/",
+  };
+
+  const projects: Project[] = [project1, project2, project3, project4, project5, project6, project7];
 
   return (
     <div className="mx-auto flex flex-col gap-8 pl-5 pr-5 lg:container lg:gap-10 lg:py-10">
