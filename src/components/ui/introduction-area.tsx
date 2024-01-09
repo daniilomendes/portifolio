@@ -4,7 +4,7 @@ import { Separator } from "./separator";
 const IntroductionArea = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center">
-      <ScrollArea className="h-[200px] w-[350px] rounded-md border p-4 lg:w-[97%] lg:h-full">
+      <ScrollArea className="h-[350px] w-[350px] rounded-md border p-4 lg:w-[97%] lg:h-full">
         <div className="text-justify">
           <p className="pb-3">
             Graduando em Bacharel em Ciência da Computação pelo IFGoiano, com
@@ -25,11 +25,11 @@ const IntroductionArea = () => {
           </p>
           <p>
             NextJs, Shadcn, Prisma, Tailwind, React Native, NodeJs, TypeScript,
-            JavaScript, Html, Css, Sass, Bootstrap, Bulma, C#, Asp.Net, Python,
+            JavaScript, Html, Css, Sass, Bootstrap, Bulma, Java, C#, Asp.Net, Python e
             R
           </p>
           <p className="pt-3">Banco de dados que trabalhei: </p>
-          <p className="pb-6">PostgreSQL e MongoDB</p>
+          <p className="pb-6">PostgreSQL, MongoDB e Prisma(ORM)</p>
           <Separator />
           <p className="pt-3">
             Caso queira entrar em contato, basta utilizar e-mail de contato ou o
