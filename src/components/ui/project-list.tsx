@@ -31,7 +31,7 @@ const ProjectList = () => {
 
   let project4 = {
     id: 4,
-    image: "/projects-images/youtube-clone.png  ",
+    image: "/projects-images/youtube-clone.png",
     name: "Youtube clone",
     link: "https://timely-sopapillas-93d31c.netlify.app/",
   };
