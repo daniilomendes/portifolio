@@ -12,7 +12,7 @@ import {
 
 const Header = () => {
   return (
-    <Card className="flex items-center justify-between p-[1.875rem]">
+    <Card className="flex items-center justify-between p-[1.875rem] md:hidden">
       <Sheet>
         <SheetTrigger asChild>
           <Button size="icon" variant="outline">
