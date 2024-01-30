@@ -20,10 +20,10 @@ const CertificatesItem = ({
   return (
     <Link
       href={certificate.link}
-      className={cn("flex min-w-[180px] flex-col gap-1", className)}
+      className={cn("flex  flex-col gap-1", className)}
       target="_blank"
     >
-      <div className="relative flex aspect-square w-full items-center justify-center rounded-lg">
+      <div className="relative flex min-w-[150px] md:min-w-[180px] aspect-square w-full items-center justify-center rounded-lg">
         <Image
           src={certificate.image}
           height={0}
@@ -35,8 +35,6 @@ const CertificatesItem = ({
       </div>
 
       <div className="flex flex-col gap-1">
-        <p className="truncate text-sm"></p>
-
         <div className="flex items-center gap-2 ">
           <p className="truncate text-sm font-semibold">{certificate.name}</p>
         </div>
