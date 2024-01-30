@@ -1,5 +1,6 @@
 import CardSlider from "@/components/ui/CertificatesCarrousel";
 import { Badge } from "@/components/ui/badge";
+import CertificatesList from "./components/certificates-list";
 
 const CertificatesPage = () => {
 
@@ -11,7 +12,7 @@ const CertificatesPage = () => {
             </Badge>
         </div>
 
-        <CardSlider />
+        <CertificatesList />
         </>
   );
 };
