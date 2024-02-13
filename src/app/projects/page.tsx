@@ -1,5 +1,5 @@
 import { Badge } from "@/components/ui/badge";
-import ProjectList from "@/components/ui/project-list";
+import ProjectList from "@/app/projects/components/project-list";
 
 const ProjectPages = () => {
     return ( 

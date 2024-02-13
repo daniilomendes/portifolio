@@ -1,4 +1,4 @@
-import CertificatesItem from '@/components/ui/certificates-item'
+import CertificatesItem from '@/app/certificates/components/certificates-item'
 import { certificates } from '@/constants'
 import React from 'react'
 
