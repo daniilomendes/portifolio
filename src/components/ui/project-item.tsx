@@ -3,7 +3,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 interface Project {
-  image: string;
+  imageUrl: string;
   name: string;
   link: string;
 }
@@ -22,7 +22,7 @@ const ProjectItem = ({ project, className }: ProjectItemsProps) => {
     >
       <div className="relative flex  w-full items-center justify-center rounded-lg lg:aspect-auto">
         <Image
-          src={project.image}
+          src={project.imageUrl}
           height={0}
           width={0}
           sizes="100vw"
