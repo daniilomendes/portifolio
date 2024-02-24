@@ -14,6 +14,13 @@ let socialMedia = {
   link: "https://social-media-plum-three.vercel.app/",
 };
 
+let blog = {
+  id: 22,
+  imageUrl: "https://utfs.io/f/a9a1dd42-3e81-4248-ab3e-0fcfb6220f86-86w4ga.png",
+  name: "Blog",
+  link: "https://blog-zvn5.onrender.com",
+};
+
 let eCommerce = {
   id: 2,
   imageUrl: "https://utfs.io/f/22db3ef3-016c-4b16-9cfb-5327bd747d05-le3xoj.png",
@@ -56,25 +63,25 @@ let jogoDaVelha = {
   link: "https://splendorous-sprite-c66f9a.netlify.app/",
 };
 
-let toDo = {
-  id: 8,
-  imageUrl: "https://utfs.io/f/5b590e6e-1126-490c-bf81-283d27c8391b-1ts07x.png",
-  name: "Lista To Do",
-  link: "https://magnificent-kelpie-a2ca22.netlify.app/",
-};
-
 let vitrineDeCarros = {
-  id: 9,
+  id: 8,
   imageUrl: "https://utfs.io/f/d1b7f0fc-0ee7-4d5b-9931-8f17df75b7b5-soita8.png",
   name: "Vitrine de Carros",
   link: "https://coruscating-centaur-cb3cf8.netlify.app/",
 };
 
 let resumidorDeArtigos = {
-  id: 10,
+  id: 9,
   imageUrl: "https://utfs.io/f/1242d4bb-bba2-4a2c-b4fc-d6e5ca3b2021-ticoi6.png",
   name: "Resumidor de Artigos",
   link: "https://comfy-mousse-2932bb.netlify.app/",
+};
+
+let toDo = {
+  id: 10,
+  imageUrl: "https://utfs.io/f/5b590e6e-1126-490c-bf81-283d27c8391b-1ts07x.png",
+  name: "Lista To Do",
+  link: "https://magnificent-kelpie-a2ca22.netlify.app/",
 };
 
 let quiz = {
@@ -84,39 +91,39 @@ let quiz = {
   link: "https://animated-conkies-433c76.netlify.app/",
 };
 
-let pokedex = {
-  id: 12,
-  imageUrl: "https://utfs.io/f/ccd68abf-e5d7-42ac-ad02-b6404c2b5afa-6lkuua.png",
-  name: "Pokedex",
-  link: "https://fascinating-blini-513ce6.netlify.app/",
-};
-
 let localizadorDeGitHub = {
-  id: 13,
+  id: 12,
   imageUrl: "https://utfs.io/f/9f4c6f5d-d5c0-4e16-b4a7-bb6f69e16477-pj8qxc.png",
   name: "Localizador de GitHubs",
   link: "https://sparkling-bienenstitch-901450.netlify.app/",
 };
 
-let geradorDeSenhas = {
+let devNotes = {
+  id: 13,
+  imageUrl: "https://utfs.io/f/da40a5e4-20c1-4707-8230-82f383f8ce5e-rtgfsn.png",
+  name: "Notas Post-it",
+  link: "https://glistening-phoenix-5c72e7.netlify.app/",
+};
+
+let pokedex = {
   id: 14,
+  imageUrl: "https://utfs.io/f/ccd68abf-e5d7-42ac-ad02-b6404c2b5afa-6lkuua.png",
+  name: "Pokedex",
+  link: "https://fascinating-blini-513ce6.netlify.app/",
+};
+
+let geradorDeSenhas = {
+  id: 15,
   imageUrl: "https://utfs.io/f/9001f569-cf34-4466-9898-c95d2d87b7df-8nojov.png",
   name: "Tela de Login com Gerador de Senhas",
   link: "https://fancy-buttercream-402fcb.netlify.app/",
 };
 
 let geradorDeQrCode = {
-  id: 15,
+  id: 16,
   imageUrl: "https://utfs.io/f/a5bfb53f-08c0-4564-a6f6-bb8f468c18b5-8gpr8a.png",
   name: "Gerador de Qr-Code",
   link: "https://bright-manatee-b711d0.netlify.app/",
-};
-
-let devNotes = {
-  id: 16,
-  imageUrl: "https://utfs.io/f/da40a5e4-20c1-4707-8230-82f383f8ce5e-rtgfsn.png",
-  name: "Notas Post-it",
-  link: "https://glistening-phoenix-5c72e7.netlify.app/",
 };
 
 let dashboard = {
@@ -147,43 +154,36 @@ let geradorDeBoxShadow = {
   link: "https://chic-klepon-bea224.netlify.app/",
 };
 
-let blog = {
+let miniblog = {
   id: 21,
   imageUrl: "https://utfs.io/f/785a0f27-3fb6-4e1e-a9b1-eb1493efe7a1-1svj6.png",
   name: "Blog Simples",
   link: "https://clever-faloodeh-4fea49.netlify.app/",
 };
 
-let barbearia = {
-  id: 22,
-  imageUrl: "https://utfs.io/f/ace5f5d3-2ae0-466b-9f60-9187c8f7fff7-n3a63o.png",
-  name: "Barbearia",
-  link: "https://barbearia-daniilomendes-projects.vercel.app/",
-};
-
 export const projects: Project[] = [
   socialMedia,
+  blog,
   eCommerce,
-  resumidorDeArtigos,
-  dashboard,
   menuOnline,
   youtubeClone,
-  barbearia,
-  vitrineDeCarros,
-  quiz,
-  devNotes,
-  blog,
   gestorDeEstoque,
   calculadora,
   jogoDaVelha,
+  vitrineDeCarros,
+  resumidorDeArtigos,
   toDo,
+  quiz,
   localizadorDeGitHub,
+  devNotes,
   pokedex,
-  calculadoraImc,
-  calculadoraSimples,
-  geradorDeBoxShadow,
-  geradorDeQrCode,
   geradorDeSenhas,
+  geradorDeQrCode,
+  dashboard,
+  calculadoraSimples,
+  calculadoraImc,
+  geradorDeBoxShadow,
+  miniblog,
 ];
 
 // Certificados
