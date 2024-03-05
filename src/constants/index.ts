@@ -231,6 +231,12 @@ let certificate6 = {
   name: "Fundamentos do React",
   link: "https://drive.google.com/file/d/16wWCqRVhJcEUNUpBqGJ1EeaR2FCpgUw0/view?usp=sharing",
 };
+let certificate23 = {
+  id: 23,
+  imageUrl: "https://utfs.io/f/501c441f-9aa9-4597-a5f8-4618142ff422-ymkc58.jpg",
+  name: "Desafios de ReactJs",
+  link: "https://drive.google.com/file/d/15ROetnuwUgXDZGGPrJ8ZVeOV9yDTEUcH/view?usp=sharing",
+};
 let certificate7 = {
   id: 7,
   imageUrl: "https://utfs.io/f/e7e1923a-5387-4370-bc99-c93100785e05-aa79h4.jpg",
@@ -335,6 +341,7 @@ export const certificates: Certificate[] = [
   certificate4,
   certificate5,
   certificate6,
+  certificate23,
   certificate7,
   certificate8,
   certificate9,
