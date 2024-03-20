@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ScrollArea } from "./scroll-area";
 import { Separator } from "./separator";
 
@@ -47,10 +48,16 @@ const IntroductionArea = () => {
             Realizando todo o versionamento do código seguindo o Conventional
             Commits Pattern em todos commits.
           </p>
-          <p className="pb-6 pt-3">
-            Exemplo de uma API seguindo tais padões:
-            https://github.com/daniilomendes/Finance-App-Api
-          </p>
+          <div className="pb-6 pt-3">
+            <p>Exemplo de uma API seguindo tais padões:</p>
+            <Link
+              href="https://github.com/daniilomendes/Finance-App-Api"
+              target="_blank"
+              className=" text-blue-500"
+            >
+              https://github.com/daniilomendes/Finance-App-Api
+            </Link>
+          </div>
           <Separator />
           <p className=" pt-6">
             As Linguagens, Bibliotecas e Frameworks que possuo conhecimento são:
