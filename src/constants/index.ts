@@ -161,11 +161,19 @@ let miniblog = {
   link: "https://clever-faloodeh-4fea49.netlify.app/",
 };
 
+let viagensApp = {
+  id: 22,
+  imageUrl: "https://utfs.io/f/77b83094-cfce-4d6f-b764-8ff45c11306c-uizk3p.png",
+  name: "Site de Acampamentos (UI/UX)",
+  link: "https://brilliant-crumble-1b5796.netlify.app/",
+};
+
 export const projects: Project[] = [
   socialMedia,
   blog,
   eCommerce,
   menuOnline,
+  viagensApp,
   youtubeClone,
   gestorDeEstoque,
   calculadora,
