@@ -1,5 +1,4 @@
 // Projetos
-
 interface Project {
   id: number;
   imageUrl: string;
@@ -154,18 +153,46 @@ let geradorDeBoxShadow = {
   link: "https://chic-klepon-bea224.netlify.app/",
 };
 
-let miniblog = {
-  id: 21,
-  imageUrl: "https://utfs.io/f/785a0f27-3fb6-4e1e-a9b1-eb1493efe7a1-1svj6.png",
-  name: "Blog Simples",
-  link: "https://clever-faloodeh-4fea49.netlify.app/",
-};
-
 let viagensApp = {
-  id: 22,
+  id: 21,
   imageUrl: "https://utfs.io/f/77b83094-cfce-4d6f-b764-8ff45c11306c-uizk3p.png",
   name: "Site de Acampamentos (UI/UX)",
   link: "https://brilliant-crumble-1b5796.netlify.app/",
+};
+
+let anoteMetas = {
+  id: 22,
+  imageUrl: "https://utfs.io/f/e2aeaf31-9377-4629-8526-1d675e51be58-v0l5i3.png",
+  name: "Anote suas Metas",
+  link: "https://imaginative-scone-36a954.netlify.app",
+};
+
+let temporizadores = {
+  id: 23,
+  imageUrl: "https://utfs.io/f/daaa2301-ba46-48d8-bdf6-250b798c8ec4-4dpigs.png",
+  name: "Temporizadores",
+  link: "https://dashing-tapioca-083d6e.netlify.app",
+};
+
+let dataFetchingBlog = {
+  id: 24,
+  imageUrl: "https://utfs.io/f/fdf3c93f-252c-4a3f-8f99-fc88c162201a-sl99ea.png",
+  name: "Data Fetching Blog",
+  link: "https://silly-praline-449919.netlify.app",
+};
+
+let miniShopRedux = {
+  id: 25,
+  imageUrl: "https://utfs.io/f/c481d051-929b-4650-9c06-cb1557329577-31mlev.png",
+  name: "Mini Shop Redux",
+  link: "https://harmonious-palmier-eaff12.netlify.app",
+};
+
+let kanbanApp = {
+  id: 26,
+  imageUrl: "https://utfs.io/f/199ed1a8-7818-4c53-b59e-606f406f3f38-eg2iq2.png",
+  name: "KanBan App",
+  link: "https://chic-torte-7dabe0.netlify.app",
 };
 
 export const projects: Project[] = [
@@ -173,25 +200,29 @@ export const projects: Project[] = [
   blog,
   eCommerce,
   menuOnline,
-  viagensApp,
+  kanbanApp,
   youtubeClone,
+  temporizadores,
+  miniShopRedux,
+  anoteMetas,
+  resumidorDeArtigos,
   gestorDeEstoque,
   calculadora,
-  jogoDaVelha,
   vitrineDeCarros,
-  resumidorDeArtigos,
-  toDo,
+  dashboard,
+  dataFetchingBlog,
+  viagensApp,
+  jogoDaVelha,
   quiz,
   localizadorDeGitHub,
+  toDo,
   devNotes,
   pokedex,
   geradorDeSenhas,
   geradorDeQrCode,
-  dashboard,
   calculadoraSimples,
   calculadoraImc,
   geradorDeBoxShadow,
-  miniblog,
 ];
 
 // Certificados
