@@ -196,7 +196,7 @@ let kanbanApp = {
 };
 
 let controleFinanceiro = {
-  id: 26,
+  id: 27,
   imageUrl: "https://utfs.io/f/050702dd-d9c1-4bea-8537-548a1163cb83-4o7z25.png",
   name: "Controle Financeiro",
   link: "https://expense-tracker-graphql-peva.onrender.com/",
