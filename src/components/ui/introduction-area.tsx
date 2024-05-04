@@ -5,7 +5,7 @@ import { Separator } from "./separator";
 const IntroductionArea = () => {
   return (
     <div className="flex w-full flex-col items-center justify-center">
-      <ScrollArea className="h-[500px] w-[350px] rounded-md border p-4 lg:h-[450px] lg:w-[100%]">
+      <ScrollArea className="h-[450px] w-[350px] rounded-md border p-4 lg:h-[400px] lg:w-[95%]">
         <div className="text-justify">
           <p className="pb-3">
             Graduando em Bacharel em Ciência da Computação pelo IFGoiano, possuo
